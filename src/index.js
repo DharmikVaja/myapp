@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Users from "./Users";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// yarn is alternative of npm, created by facebook
+// package.json has detail about app,
+// and package.lock.json has detail about pkg.json and all node modules (their tree structure).
+// manifest.json/ meta-files used for (advanced)web creation
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Users />
   </React.StrictMode>
 );
 
