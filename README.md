@@ -1,3 +1,13 @@
+// yarn is alternative of npm, created by facebook
+// package.json has detail about app,
+// and package.lock.json has detail about pkg.json and all node modules (their tree structure).
+// manifest.json/ meta-files used for (advanced)web creation
+// Babel modern supports modern js(ex- es6) bcoz, during compile it wont recognize many things(like const, let, arrow fun, etc)
+// use <React.Fragment> or just <></> around html code to avoid creating the extra node(ex- div). which helps in css or dom manipulation.
+// <p contentEditable="true">Editable HELLO</p> - text can be edited
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
